@@ -1,0 +1,124 @@
+body {
+  background-color: #0f141c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1e272e;
+  padding: 25px;
+  border-radius: 12px;
+  border: 3px solid #2f3640;
+  max-width: 320px;
+  width: 100%;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: monospace;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.titulo {
+  margin: 0 0 5px 0;
+  color: #f1c40f;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.subtitulo {
+  font-size: 11px;
+  color: #a4b0be;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.caixa-roleta {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.ponteiro {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: #fff;
+  z-index: 10;
+}
+
+.circulo {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 5px solid #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Fatias dinâmicas */
+.fatia {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: 50%;
+  top: 50%;
+  transform-origin: 0% 0%;
+}
+
+.texto-fatia {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  width: 80px;
+  color: #000;
+  transform: rotate(30deg);
+}
+
+.botao {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-bottom: 4px solid #c0392b;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+  font-family: monospace;
+  transition: opacity 0.2s ease;
+}
+
+.botao:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.painel-resultado {
+  margin-top: 15px;
+  background-color: #111;
+  padding: 10px;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  border: 1px dashed #f1c40f;
+}
+
+.texto-resultado {
+  margin: 5px 0 0 0;
+  color: #2ecc71;
+  font-weight: bold;
+  font-size: 15px;
+}

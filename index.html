@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roleta do Destino</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h3 class="titulo">🎯 ROLETA DO DESTINO</h3>
+    <p class="subtitulo">Use ao errar ou sob ordem do professor!</p>
+
+    <div class="caixa-roleta">
+      <!-- Ponteiro Indicador do Topo -->
+      <div class="ponteiro">▼</div>
+
+      <!-- Corpo Circular da Roleta -->
+      <div id="roleta-circulo" class="circulo">
+        <!-- As fatias serão geradas dinamicamente via JS -->
+      </div>
+    </div>
+
+    <button id="botao-girar" class="botao">🎲 GIRAR ROLETA</button>
+
+    <!-- Painel de Resultado Oculto por padrão -->
+    <div id="painel-resultado" class="painel-resultado" style="display: none;">
+      <small>Efeito Ativo para o Aluno/Equipe:</small>
+      <p id="texto-resultado" class="texto-resultado"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
