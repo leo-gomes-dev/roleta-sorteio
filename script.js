@@ -3,7 +3,7 @@ const ITENS_ROLETA = [
   { texto: "1 Min Sem Tocar no Código!", cor: "#FF4500" },
   { texto: "Espiar Outra Equipe!", cor: "#1E90FF" },
   { texto: "Inverter Código com Outra Equipe!", cor: "#32CD32" },
-  { texto: "Pula o Próximo Desafio", cor: "#BA55D3" },
+  { texto: "Girar novamente", cor: "#BA55D3" },
   { texto: "Digitar com 1 Mão só!", cor: "#FF8C00" },
 ];
 
