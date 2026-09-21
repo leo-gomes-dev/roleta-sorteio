@@ -34,7 +34,7 @@ Como o projeto utiliza apenas tecnologias nativas do navegador, você não preci
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **HTML5:** Estruturação semântica da aplicação.
 - **CSS3:** Estilização baseada em variáveis e sistema de rotação por graus.
@@ -58,4 +58,4 @@ const ITENS_ROLETA = [
 Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
-Developed with 💻 for [Leo Gomes](https://leogomesdev.com/)
+Developed with for [Leo Gomes](https://leogomesdev.com/)
